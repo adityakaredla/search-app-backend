@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
+const path = require('path');
 
-const rawData = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+const jsonFilePath = path.join(__dirname, 'data.json');
+const rawData = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
 
 const {inclusionSearch} = require('./inclusionSearch');
 const {strictInclusiveSearch} = require('./strictInclusivesearch');
