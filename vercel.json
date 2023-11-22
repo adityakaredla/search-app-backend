@@ -8,10 +8,6 @@
     ],
     "routes": [
       {
-        "src": "/search/:input",
-        "dest": "server.js"
-      },
-      {
         "src": "/(.*)",
         "dest": "server.js"
       }
