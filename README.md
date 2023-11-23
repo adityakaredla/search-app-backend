@@ -29,7 +29,7 @@ This project is a full-stack search application that allows users to search for 
 
 
 4. **CORS Configuration:**
-   - CORS is properly configured to allow requests from the React.js frontend.
+   - CORS is properly configured to allow requests from the Next.js frontend.
 
 ## Conclusion
 
